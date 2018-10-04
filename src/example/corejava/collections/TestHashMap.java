@@ -16,7 +16,7 @@ public class TestHashMap {
 		map.put(222, "Anu");
 		map.put(333, "Emey");
 		map.put(null, null);
-		map.put(444, null);
+		map.put(null, null);
 		System.out.println(map);
 		
 		Set s1=map.keySet();

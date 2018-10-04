@@ -21,6 +21,7 @@ public class FindLongestSubstringWithoutRepeatingCharacters {
 		LinkedHashMap<Character, Integer> map=new LinkedHashMap<Character, Integer>();
 		
 		for(int i=0;i<charArray.length;i++){
+		
 			char ch = charArray[i];
 			if(!map.containsKey(ch)){
 				map.put(ch, i);
